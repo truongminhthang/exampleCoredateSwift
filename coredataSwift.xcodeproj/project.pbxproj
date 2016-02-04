@@ -15,6 +15,10 @@
 		FF1652EA1C37639D0045759F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1652E81C37639D0045759F /* LaunchScreen.storyboard */; };
 		FF1652F51C37639D0045759F /* coredataSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1652F41C37639D0045759F /* coredataSwiftTests.swift */; };
 		FF1653001C37639E0045759F /* coredataSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1652FF1C37639E0045759F /* coredataSwiftUITests.swift */; };
+		FF16530F1C3763D60045759F /* Salary+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF16530D1C3763D60045759F /* Salary+CoreDataProperties.swift */; };
+		FF1653101C3763D60045759F /* Salary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF16530E1C3763D60045759F /* Salary.swift */; };
+		FF1653131C376A4B0045759F /* Job+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1653111C376A4B0045759F /* Job+CoreDataProperties.swift */; };
+		FF1653141C376A4B0045759F /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1653121C376A4B0045759F /* Job.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		FF1652FB1C37639E0045759F /* coredataSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coredataSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1652FF1C37639E0045759F /* coredataSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coredataSwiftUITests.swift; sourceTree = "<group>"; };
 		FF1653011C37639E0045759F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF16530D1C3763D60045759F /* Salary+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Salary+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FF16530E1C3763D60045759F /* Salary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Salary.swift; sourceTree = "<group>"; };
+		FF1653111C376A4B0045759F /* Job+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Job+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FF1653121C376A4B0045759F /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				FF1652E81C37639D0045759F /* LaunchScreen.storyboard */,
 				FF1652EB1C37639D0045759F /* Info.plist */,
 				FF1652E31C37639D0045759F /* coredataSwift.xcdatamodeld */,
+				FF16530D1C3763D60045759F /* Salary+CoreDataProperties.swift */,
+				FF16530E1C3763D60045759F /* Salary.swift */,
+				FF1653111C376A4B0045759F /* Job+CoreDataProperties.swift */,
+				FF1653121C376A4B0045759F /* Job.swift */,
 			);
 			path = coredataSwift;
 			sourceTree = "<group>";
@@ -260,8 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF1652E51C37639D0045759F /* coredataSwift.xcdatamodeld in Sources */,
+				FF16530F1C3763D60045759F /* Salary+CoreDataProperties.swift in Sources */,
 				FF1652DF1C37639D0045759F /* ViewController.swift in Sources */,
+				FF1653101C3763D60045759F /* Salary.swift in Sources */,
 				FF1652DD1C37639D0045759F /* AppDelegate.swift in Sources */,
+				FF1653141C376A4B0045759F /* Job.swift in Sources */,
+				FF1653131C376A4B0045759F /* Job+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
